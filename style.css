@@ -1,0 +1,118 @@
+#body{
+    background-color: #222;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+  p{
+    color: #bbb;
+  }
+  input[type=color]{
+      background-color: #0000;
+      border: 0px;
+      height: 60px;
+      width: 60px;
+  }
+  button{
+      margin-top: 10px;
+      margin-top: 10px;
+      padding: 15px 20px 15px 20px ;
+      border-radius: 6px;
+      background-color: #2c2c2c;
+      box-shadow: 6px 4px 10px 1px rgba(0, 0, 0, 0.4);
+      border-radius: 6px;
+      border: 0px solid;
+      color: #bbb;
+  }
+  button:hover{
+      background-color: #111;
+  }
+  #controls{
+      background-color: #333333;
+      width: 20%;
+      height: 95vh;
+      margin-left: 10px;
+      margin-top: 2.5vh;
+      margin-bottom: 2.5vh;
+      border-radius: 6px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 6px 4px 10px 1px rgba(0, 0, 0, 0.4);
+  }
+  #colorControl{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #modeControl{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  #canvasControl{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .toogleBtn:focus{
+      background-color: #111;
+  }
+  #canvas{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 6px;
+    display: grid;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  @media (max-width: 1180px){
+    #controls{
+      width: 30%;
+    }
+    #canvas{
+      width: 500px;
+      height: 500px;
+    }
+  }
+  @media (max-width: 770px){
+    #controls{
+      width: 30%;
+    }
+    #canvas{
+      width: 300px;
+      height: 300px;
+    }
+  }
+  @media (max-width: 680px){
+    #controls{
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #canvas{
+      width: 400px;
+      height: 400px;
+      margin-bottom: 50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #body{
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 459px){
+    #canvas{
+      width: 300px;
+      height: 300px;
+    }
+  }

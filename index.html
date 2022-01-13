@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Etch A Sketch</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+      </head>
+      <body id="body" onload="updateGrids(16)">
+        <div id="controls">
+          <div id="colorControl">
+            <input id="colorPicker" type="color" onchange="setColor(this.value)" value="#333333">
+          </div>
+          <div id="modeControl">
+            <button class="toogleBtn" onclick="setMode('color')" id="tooglecolor">Color Mode</button>
+            <button class="toogleBtn" onclick="setMode('rainbow')" id="toogleRainbow">Rainbow Mode</button>
+            <button class="toogleBtn" onclick="setMode('eraser')" id="toogleEraser">Eraser Mode</button>
+          </div>
+          <div id="canvasControl">
+            <input id="sizeSlider" onchange="updateGrids(this.value)" type="range" value="16" min="0" max="24">
+            <p id="sliderValue">16 x 16</p>
+            <button class="toogleBtn" onclick="showBorder()" id="toogleBorder">Show Border</button>
+            <button id="Clear" onclick="clearGrid()">Clear</button>
+          </div>
+        </div>
+        <div id="canvas">
+        </div>
+      </body>
+      <script src="script.js"></script>
+</html>
