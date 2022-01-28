@@ -2,8 +2,9 @@
 
 [![powered-by-PDe-C.png](https://i.postimg.cc/TwtnTtkG/powered-by-PDe-C.png)](https://postimg.cc/zbRyjFZP)
 
-[![easwapv.png](https://i.postimg.cc/5tv02dz5/easwapv.png)](https://postimg.cc/Z9bZwQV0)
+[![easwapv.png](https://i.postimg.cc/5tv02dz5/easwapv.png)](https://pascall-etch-a-sketch.netlify.app)
 
+Website @[Netlify etch a sketch](https://pascall-etch-a-sketch.netlify.app)
 
 ### Etch a sketch for drawing and canvas writing
 
